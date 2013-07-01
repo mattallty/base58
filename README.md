@@ -1,13 +1,13 @@
-# Base58 : A Base-58 encoder/decoder written in PHP
+# Base-58 encoder/decoder in PHP
 
-# Install Base58 using composer
+## Install Base58 using composer
 ```
 {
     "require" : "allty/base58"
 }
 ```
 
-# Usage
+## Usage
 ```php
 use Allty\Utils\Base58;
 
