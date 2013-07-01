@@ -1,0 +1,13 @@
+{
+    "name": "allty/base58",
+    "description": "base58 encoder/decoder written in PHP.",
+    "authors": [
+        {
+            "name": "Matthias ETIENNE",
+            "email": "matt@allty.com"
+        }
+    ],
+    "require": {
+
+    }
+}
