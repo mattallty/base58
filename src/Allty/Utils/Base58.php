@@ -47,9 +47,3 @@ class Base58 {
     
 }
 
-
-$num = 627868726;
-$encoded = Base58::encode($num);
-echo '$encoded : '.$encoded."\n";
-$decoded = Base58::decode($encoded);
-echo '$decoded : '.$decoded."\n";
