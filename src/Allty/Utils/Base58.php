@@ -10,7 +10,7 @@ class Base58 {
     public static function encode($int) {
         
         if(!is_integer($int)) {
-            throw new \InvalidArgumentException('$int must be an integer. Got a '.gettype($int).'.');
+            throw new \InvalidArgumentException('$int must be an integer. Got a '.gettype($int).'!');
         }
         
         $encoded = '';
@@ -27,7 +27,7 @@ class Base58 {
     public static function decode($str) {
         
         if(!is_string($str)) {
-            throw new \InvalidArgumentException('$str must be a string. Got a '.gettype($str).'.');
+            throw new \InvalidArgumentException('$str must be a string. Got a '.gettype($str).'!');
         }
         
         $decoded = 0;
@@ -46,4 +46,3 @@ class Base58 {
     }
     
 }
-
