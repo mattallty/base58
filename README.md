@@ -3,7 +3,7 @@
 ## Using base-58 encoding for shortening URLs
 
 This class can be used to convert integers (base 10) to base-58 strings.
-Base-58 contains alphanumeric characters minus "1" (number 1), "l" (letter l), "0" (number 0), and O (letter O)
+Base-58 contains alphanumeric characters minus "l" (letter l), "0" (number 0), and O (letter O)
 to prevent mistyping.
 
 ## Install Base58 using composer
