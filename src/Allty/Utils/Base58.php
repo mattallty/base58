@@ -3,7 +3,7 @@ namespace Allty\Utils;
 
 class Base58 {
     
-    static $alphabet = '23456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ';
+    static $alphabet = '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ';
     
     const BASE = 58;
     
